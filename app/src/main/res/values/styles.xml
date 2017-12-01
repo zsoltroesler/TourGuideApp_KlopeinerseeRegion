@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Cover photo style from activity_main.xml. -->
+    <style name="CoverPhotoStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/cover_photo_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name from activity_main.xml. -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/colorPrimary</item>
+        <item name="tabSelectedTextColor">@color/colorPrimary</item>
+        <item name="tabMode">scrollable</item>
+    </style>
+
+    <!-- Text appearance style for a category tab. -->
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Item photo style from item_list.xml -->
+    <style name="ItemPhotoStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/item_photo_height</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <!-- Item title style from item_list.xml. -->
+    <style name="ItemTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/padding_left</item>
+        <item name="android:paddingTop">@dimen/padding_top</item>
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Item container style from item_list.xml. -->
+    <style name="ItemContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/padding_bottom</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Item description style from item_list.xml. -->
+    <style name="ItemDescriptionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">@dimen/padding_left</item>
+        <item name="android:paddingTop">@dimen/padding_top</item>
+        <item name="android:textSize">@dimen/description_size</item>
+    </style>
+
+    <!-- Location icon style from item_list.xml -->
+    <style name="ItemLocationStyle">
+        <item name="android:layout_width">@dimen/location_icon_size</item>
+        <item name="android:layout_height">@dimen/location_icon_size</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:tint">@color/colorAccent</item>
+    </style>
+
+    <!-- ListView style from fragment_items_list.xml -->
+    <style name="ListViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

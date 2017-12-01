@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Klopeiner See Region - Austria</string>
+
+    <!-- Category names -->
+    <string name="category_culture">Culture</string>
+    <string name="category_family">Family</string>
+    <string name="category_active">Active</string>
+    <string name="category_sights">Sights</string>
+    <string name="category_lakes">Lakes</string>
+
+    <!-- LakesFragment strings -->
+    <string name="klopeinersee_title">Klopeiner See</string>
+    <string name="turnersee_title">Turnersee</string>
+    <string name="goesselsdorfersee_titel">Gösselsdorfer See</string>
+    <string name="pirkdorfersee_titel">Pirkdorfer See</string>
+    <string name="sonneggersee_titel">Sonnegger See</string>
+    <string name="linsendorfersee_titel">Linsendorfer See</string>
+    <string name="klopeinersee_description">At 28 degrees Celsius, Klopeiner See ranks among the
+        warmest bathing lakes in Europe! The excellent drinking water quality attracts those into
+        water sports, other water lovers and sunbathers alike. A total of 12 public beach baths
+        await families, with everything on hand. The lake promenade of its kind in Austria invites
+        you to stroll and enjoy.</string>
+    <string name="turnersee_description">Just like its neighbour, Klopeiner See, Turnersee is among
+        the warmest bathing lakes in Europe. The idyllic bathing lake with water so clean it is
+        drinkable, is a particular must for guests in search of peace and relaxation. You can also
+        enjoy a panoramic view of the Karawanken mountains.</string>
+    <string name="goesselsdorfersee_description">Gösselsdorfer See is located in the nature reserve
+        close to Eberndorf. the public bath is very romantic. If somebody looks for a cosy charming
+        lake to enjoy calmness, mountain view and warm bathing, Gösseldorfer See is a must. Tip: a
+        wonderful rest for cyclists exploring one of the many marked cycling routes of the region.
+    </string>
+    <string name="pirkdorfersee_description">The Pirkdorfer See in Southern Carinthia is located at
+        the foot of the 2,114 m high Petzen, surrounded by meadows and forests and in the background
+        the mountain massif rises like a protective shield.Lake Pirkdorfer presents itself under the
+        motto as small but mighty.</string>
+    <string name="sonneggersee_description">The Sonnengger lake in the village of Sittersdorf is
+        surrounded by a fairytale landscape: clear water, lush meadows, shady forests, fresh
+        mountain air. It is particularly suitable for families. Tip: the Acoustic Lakeside Festival
+        in July takes place right here on the lake and the Sittersdorfer wine festival in September
+        is almost around the corner.</string>
+    <string name="linsendorfersee_description">The idyllic resting place in Gallizien in the
+        immediate vicinity to the Drau cycling route. Best water quality, a natural lying meadow and
+        bathing with free entrance make Lisendorfer an insider tip.</string>
+    <string name="klopeinersee_location">geo:0,0?q=Klopeiner See</string>
+    <string name="turnersee_location">geo:0,0?q=Turnersee</string>
+    <string name="goesselsdorfersee_location">geo:0,0?q=Gösseldorfer See</string>
+    <string name="pirkdorfersee_location">geo:0,0?q=Pirkdorfer See</string>
+    <string name="sonneggersee_location">geo:0,0?q=Sonnegger See</string>
+    <string name="linsendorfersee_location">geo:0,0?q=Linsendorfer See</string>
+
+    <!-- SightsFragment strings -->
+    <string name="caves_title">Obir dripstone caves</string>
+    <string name="waterfall_title">Wildenstein waterfall</string>
+    <string name="troegerner_titel">Trögerner Klamm</string>
+    <string name="tscheppa_title">Tscheppaschlucht</string>
+    <string name="petzen_title">Mount Petzen cable car</string>
+    <string name="cave_description">Nature has been perfecting this work of art for millions of
+        years. Visitors to Bad Eisenkappel have three hours to get an inside look at the huge
+        stalagmites, stalactites, breathtaking caves and grottos of the Obir dripstone caves.
+        They are rank as one of the largest natural monuments in Austria.</string>
+    <string name="waterfall_description">The municipality of Gallizien is home to the Wildenstein
+        Waterfall, which breaks out of a vertical rock face and drops down 54 metres into the depths
+        for a spectacle to admire. Those reaching the Wildenstein waterfall platform can also start
+        an equally beautiful but challenging hiking tour on the Hochobir (2,139 metres).</string>
+    <string name="troegerner_description">In this wild-romantic canyon landscape, the water has left
+        deep incisions in the rock, creating an impressive natural monument. The Trögerner Klamm is
+        a hiking and fishing paradise. This 3,5 kilometer long gorge can be wandered on the ground
+        or by bicycle.</string>
+    <string name="tscheppa_description">The Tscheppaschlucht is a real nature phenomenon. With its
+        canyons, cliffs, waterfalls as well as beautiful rare flowers and a marvelous few the
+        Tscheppaschlucht is known as a nature jewel. If you are searching for a restorative and
+        beautiful nature experience this gorge will not disappoint you.</string>
+    <string name="petzen_description">Let the impressions of unspoiled nature enchant you. With the
+        Petzen cable car, drive to a height of 1,708 m above sea level and enjoy a view of the Jaun
+        valley plus the mountains, hills and lakes of Southern Carinthia. Let the impressions of
+        unspoiled nature enchant you.</string>
+    <string name="caves_location">geo:0,0?q=Obir Tropfsteinhöhlen, Zauchen</string>
+    <string name="waterfall_location">geo:0,0?q=Wildensteiner Wasserfall</string>
+    <string name="troegerner_location">geo:0,0?q=Trogener Klamm</string>
+    <string name="tscheppa_location">geo:0,0?q=Tscheppaschlucht</string>
+    <string name="petzen_location">geo:0,0?q=Petzen-Bergbahnen GmbH</string>
+
+    <!-- ActiveFragment strings -->
+    <string name="mtb_title">Mountain biking</string>
+    <string name="cycling_title">Road cycling</string>
+    <string name="hiking_titel">Hiking</string>
+    <string name="golf_title">Golf</string>
+    <string name="ski_title">Ski</string>
+    <string name="mtb_description">This region is MTB eldorado. Petzen mountain offers the
+        highlights most of all. At 11 km long, the Petzen Flow Country Trail is the longest flow
+        trail in Europe. The 7 km-long Petzen Thriller is a dream of every enduro rider to test his
+        skills on the edge.</string>
+    <string name="cycling_description">Road cyclists will find perfect conditions in this area from
+        mountain passes with breathtaking views to flat roads along the river Drau. This is where
+        the road-bike elite of Austria train. Just drop by at tourist office in Seelach for more
+        information and maps.</string>
+    <string name="hiking_description">This region is guarded by two giants Hochobir (2139 m) and
+        Petzen (2126 m). They are the passport to mountain experiences. By the way do not forget to enjoy
+        a pleasant dinner in one of the mountain huts after a grueling hike.</string>
+    <string name="golf_description">Discover attractive golfing offers of Golfpark Klopeinersee.
+        Sports fans here can look after mind and body, as well as their handicap, who want to
+        improve their technique and enjoy views of the Hochobir Mountain and Steiner Alps</string>
+    <string name="ski_description">Petzen is just awesome in winter as well. With almost 20 km
+        slopes with various levels of difficulty offers it offers unforgetable winter experience.
+        Besides Petzen Snow Park welcomes snowboarders and freestyle skiers of all abilities.</string>
+    <string name="mtb_location">geo:0,0?q=Petzen-Bergbahnen GmbH</string>
+    <string name="cycling_location">geo:0,0?q=Tourismusregion Klopeiner See - Südkärnten</string>
+    <string name="hiking_location">geo:0,0?q=Hochobir</string>
+    <string name="golf_location">geo:0,0?q=Golfclub/Golfpark Klopeinersee-Südkärnten</string>
+    <string name="ski_location">geo:0,0?q=Petzen-Bergbahnen GmbH</string>
+
+    <!-- FamilyFragment strings -->
+    <string name="walderlebniswelt_title">Walderlebniswelt Klopeiner See</string>
+    <string name="boat_trip_title">Discover Drau by ship</string>
+    <string name="bird_park_titel">Turnersee Bird Park</string>
+    <string name="sablatnigmoor_title">Sablatnigmoor</string>
+    <string name="expi_title">EXPI - Hands on Science Center</string>
+    <string name="walderlebniswelt_description">Jumping, climbing, balancing: forest experience
+        world at Klopeiner See was created for children and their needs. This is a natural
+        playground 20,000 square metres across, boasting over 75 open-air attractions. The
+        mini-animal park houses lambs, guinea pigs, donkeys and sheep waiting to meet you. For the
+        more inquisitive among you, a nature trail awaits. Children can enjoy this while expanding
+        their insights into flora and fauna. The giant sandpit, meanwhile, is a perfect attraction
+        for younger guests aged under three years.</string>
+    <string name="boat_trip_description">On the Drau, the largest river in Carinthia, the Klopeiner
+        See - Südkärnten region offers vacationers a choice of five different pleasure cruises.
+        Cruise options include exploring the green canyon and the Devils Islands. Or would you
+        rather take a boat and go downtown? If so, then our castle-bridge-city tour will be right
+        up your alley. This includes a tour of the Völkermarkt town. Your captain knows this area
+        like the back of his hand, including all the old legends and myths. Cabin boys and girls can
+        enjoy the pirate control station and childhood captain training at the big steering wheel.
+        The older children at heart among you can enjoy a view of the Drava, also through panoramic
+        salon windows, or book a romantic evening cruise.</string>
+    <string name="bird_park_description">The 300 species presented to visitors are thus mainly the
+        product of their offspring. As well as traditional crowd pleasers such as parrots, cockatoo,
+        birds of prey or pheasants, the selection includes lesser-known species such as lorikeets or
+        Amazons. The tame birds here like nothing better than perching on your arm for a quick feed.
+        The latest attraction to reach the bird park is the large terrarium, featuring a frill-necked
+        lizard and Barbtail monitor lizards at the entrance. Smaller guests, meanwhile, are likely
+        to be entranced by the petting zoo, which features rabbits, guinea pigs, dwarf goats, alpacas
+        and ponies, plus an adventure children’s playground and a bouncy castle.</string>
+    <string name="sablatnigmoor_description">1,700 animals, 300 plants and 170 bird species are all
+        housed in this nature reserve marsh. The site where the present-day Sablatnigmoor has
+        established itself was a post-Ice-Age lake some 12,000 years ago. Over time, the area and
+        the boggy landscape came into being, bringing with them a rich variety of plant and animal
+        life. And something for garden lovers: Featured here are two carnivorous species of sundew
+        and waterwash, as well as numerous rare orchids (for example, the marsh sundew). Birds,
+        butterflies and frogs are particularly at home in Sablatnigmoor.</string>
+    <string name="expi_description">With more than 400 m2 exhibition area and 60 experiemental
+        stations, the visitors can experience interesting, surprising and also instructive physical
+        phenomena. Watch as a true tornado emerges before your eyes, see with your own eyes how people
+        change their size in an "Ames room" or how the "Bernoulli ball" - as held by magic hand -
+        floats in the air. Let yourself be surprised by nature!</string>
+    <string name="walderlebniswelt_location">geo:0,0?q=Freizeitanlagen Walderlebniswelt Klopeiner See GmbH, Gemeinde Sankt Kanzian am Klopeiner See</string>
+    <string name="boat_trip_location">geo:0,0?q=Seidendorf</string>
+    <string name="bird_park_location">geo:0,0?q=Vogelpark Turnersee</string>
+    <string name="sablatnigmoor_location">geo:0,0?q=Tomerteich</string>
+    <string name="expi_location">geo:0,0?q=EXPI Hands on Science Center</string>
+
+    <!-- CultureFragment strings -->
+    <string name="sommerspiele_title">Sommerspiele Eberndorf</string>
+    <string name="heunburg_title">Theater Heunburg</string>
+    <string name="berg_museum_titel">Werner Berg museum</string>
+    <string name="liaunig_museum_title">Liaunig museum</string>
+    <string name="sommerspiele_description">The South Carinthian summer theater takes place every
+        year in July and August in Eberndorf in Carinthia. Founded in 1976, this is one of the largest
+        and most famous theater in Carinthia. It is a crucial highlight and jewel in the cultural
+        heritage of the Klopeiner See - Südkärnten region.</string>
+    <string name="heunburg_description">A higher class theatre with modern plays, this is Heunburg
+        theater. It also takes place every year in July and August in Haimburg. In addition to theater,
+        a musical night, an opera and operetta evening serve as well for lovers of culture.</string>
+    <string name="berg_museum_description">Werner Berg (1904-1981) was honored when the city of
+        Bleiburg constructed a monograph museum in 1968. This representative institution, in the
+        main square of the city, has since become a mecca for art lovers the world over.</string>
+    <string name="liaunig_museum_description">The Liaunig museum showcases one of the best collections
+        of Austrian art from 1945 onwards, complemented by some dazzling artwork from international
+        artists. Another highlight awaiting all art lovers is the pair of art and culture bike paths.
+    </string>
+    <string name="sommerspiele_location">geo:0,0?q=Sommerspiele Eberndorf</string>
+    <string name="heunburg_location">geo:0,0?q=Heunburg Theater</string>
+    <string name="berg_museum_location">geo:0,0?q=Werner Berg Museum</string>
+    <string name="liaunig_museum_location">geo:0,0?q=Museum Liaunig</string>
+</resources>
