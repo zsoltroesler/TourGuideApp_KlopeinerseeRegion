@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/image"
-        style="@style/ItemPhotoStyle" />
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_photo_height"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"/>
 
     <TextView
         android:id="@+id/title"
-        style="@style/ItemTitleStyle" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_left"
+        android:paddingTop="@dimen/padding_top"
+        android:textSize="@dimen/title_size"
+        android:textStyle="bold"/>
 
     <LinearLayout
         android:id="@+id/container"
-        style="@style/ItemContainerStyle">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_bottom">
 
         <TextView
             android:id="@+id/description"
-            style="@style/ItemDescriptionStyle" />
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_left"
+            android:paddingTop="@dimen/padding_top"
+            android:textSize="@dimen/description_size"/>
 
         <ImageView
-            style="@style/ItemLocationStyle"
+            android:layout_height="@dimen/location_icon_size"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
             android:src="@mipmap/ic_action_location" />
 
     </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.android.tourguideapp_klopeinerseeregion;
+package com.example.android.tourguideapp_klopeinerseeregion.model;
 
 /**
  * Created by Zsolt on 8/18/2017.

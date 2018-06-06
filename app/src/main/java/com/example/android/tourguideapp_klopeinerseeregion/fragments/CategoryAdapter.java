@@ -1,4 +1,4 @@
-package com.example.android.tourguideapp_klopeinerseeregion;
+package com.example.android.tourguideapp_klopeinerseeregion.fragments;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
